@@ -3,7 +3,7 @@ import React from "react";
 function HeroCard() {
   return (
     <div className="bg-black w-full flex-col  mx-6 my-8 px-11 py-16 lg:max-w-md md:max-w-md col-sm-12">
-        {/* Card Title */}
+      {/* Card Title */}
       <div className="flex  ">
         <h1 className="text-white text-center text-2xl font-medium">
           Where would you like to go?
@@ -11,7 +11,6 @@ function HeroCard() {
       </div>
       {/* Destination Input */}
       <div className="pt-6">
-        <h1 className="text-white">Enter Destination</h1>
         <input
           placeholder="e.g Kampala"
           required
@@ -83,9 +82,12 @@ function HeroCard() {
       </div>
       {/* Confirm Button */}
       <div className="pt-6">
-          <button type="button" className="border border-white w-full flex justify-center">
-              <span className="text-white text-sm my-2 font-bold">Confirm</span>
-          </button>
+        <button
+          type="button"
+          className="border border-white w-full flex justify-center"
+        >
+          <span className="text-white text-sm my-2 font-bold">Confirm</span>
+        </button>
       </div>
     </div>
   );
